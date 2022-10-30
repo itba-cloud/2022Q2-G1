@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
 
-  shared_credentials_files = ["/home/jsuarezb/.aws/credentials"]
+  shared_credentials_files = ["~/.aws/credentials"]
   profile                  = "itba-cloud"
 
   default_tags {
